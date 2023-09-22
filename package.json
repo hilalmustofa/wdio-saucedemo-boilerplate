@@ -1,0 +1,21 @@
+{
+  "name": "wdio-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple web automation boilerplate using WebdriverIO",
+  "scripts": {
+    "test": "npx wdio wdio.conf.js -- --spec ./test/specs/login.spec.js"
+  },
+  "keywords": [],
+  "author": "hll",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.5.6",
+    "@wdio/local-runner": "^8.5.6",
+    "@wdio/mocha-framework": "^8.5.6",
+    "@wdio/spec-reporter": "^8.4.0",
+    "chromedriver": "^116.0.0",
+    "dotenv": "^16.3.1",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-timeline-reporter": "^5.1.4"
+  }
+}

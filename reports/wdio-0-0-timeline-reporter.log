@@ -1,0 +1,71 @@
+{
+  "start": "2023-09-22T17:05:35.636Z",
+  "end": "2023-09-22T17:05:39.148Z",
+  "capabilities": {
+    "acceptInsecureCerts": true,
+    "browserName": "chrome",
+    "browserVersion": "117.0.5938.62",
+    "chrome": {
+      "chromedriverVersion": "116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382})",
+      "userDataDir": "/var/folders/1z/zp5yffjd3jg6n6t47ztyvplh0000gp/T/.org.chromium.Chromium.QWrjsN"
+    },
+    "fedcm:accounts": true,
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:57658"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "mac os x",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:extension:minPinLength": true,
+    "webauthn:extension:prf": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "fa6854a8ed8c016d328ee0b9f0a4d7e9"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "baseUrl": "http://localhost",
+  "framework": "mocha",
+  "duration": 3512,
+  "suites": [
+    {
+      "title": "Saucelab Test Suites",
+      "duration": 3185,
+      "start": "2023-09-22T17:05:35.638Z",
+      "end": "2023-09-22T17:05:38.823Z",
+      "tests": [
+        {
+          "title": "Login",
+          "start": "2023-09-22T17:05:35.638Z",
+          "end": "2023-09-22T17:05:38.822Z",
+          "duration": 3184,
+          "state": "passed",
+          "screenshots": [
+            "/Users/TF0160/Automation/wdio/wdioweb/reports/file-1695402336574.jpeg",
+            "/Users/TF0160/Automation/wdio/wdioweb/reports/file-1695402336692.jpeg",
+            "/Users/TF0160/Automation/wdio/wdioweb/reports/file-1695402339116.jpeg"
+          ]
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///Users/TF0160/Automation/wdio/wdioweb/test/specs/login.spec.js"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  }
+}
